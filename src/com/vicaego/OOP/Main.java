@@ -7,11 +7,13 @@ public class Main {
 		
 		ABC abc = new ABC();
 		abc.Print();
-		abc.output();
+		abc.output(); //Abstract class output function
+		
+		
 		
 		XYZ xyz = new XYZ();
 		xyz.Print();
-		xyz.output();
+		xyz.output(); //XYZ class output function because method override
 		
 		//AbstractTest ab = new AbstractTest(); cannot create object of abstract
 		
